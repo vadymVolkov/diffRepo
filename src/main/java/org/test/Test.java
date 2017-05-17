@@ -15,13 +15,13 @@ public class Test {
 
         Test test = new Test();
 
-        String dirPath1 = "test1.xml";
+        String dirPath1 = "Sample_cut.xml";
         File file1 = new File(dirPath1);
-        String dirPath2 = "test2.xml";
+        String dirPath2 = "Sample_cut2.xml";
         File file2 = new File(dirPath2);
 
         FileComparator fileComparator = new FileComparator(file1, file2);
-        List<Chunk> chunks = fileComparator.getChunksByType(Delta.TYPE.CHANGE);
+        List<Chunk> chunks = fileComparator.getChunksByType(Delta.TYPE.INSERT);
 
         for (int i = 0; i < chunks.size(); i++) {
             System.out.println("Diff number " + (i+1));

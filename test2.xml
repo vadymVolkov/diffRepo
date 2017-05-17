@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.0 Partwise//EN" "/musicxml/partwise.dtd">
 <score-partwise>
 	<work><work-title>test</work-title>
 	</work>
@@ -52,7 +51,7 @@
 			<sound pan="8" tempo="120"></sound>
 			<barline location="left"><bar-style>heavy-light</bar-style>
 			</barline>
-			<note><pitch><step>C</step>
+			<notePitch><pitch><step>C</step>
 					<octave>5</octave>
 				</pitch>
 				<duration>1</duration>
@@ -64,8 +63,8 @@
 						<fret>5</fret>
 					</technical>
 				</notations>
-			</note>
-			<note><pitch><step>D</step>
+			</notePitch>
+			<notePitch><pitch><step>D</step>
 					<octave>5</octave>
 				</pitch>
 				<duration>1</duration>
@@ -77,8 +76,8 @@
 						<fret>7</fret>
 					</technical>
 				</notations>
-			</note>
-			<note><pitch><step>E</step>
+			</notePitch>
+			<notePitch><pitch><step>E</step>
 					<octave>4</octave>
 				</pitch>
 				<duration>1</duration>
@@ -90,8 +89,8 @@
 						<fret>7</fret>
 					</technical>
 				</notations>
-			</note>
-			<note><pitch><step>A</step>
+			</notePitch>
+			<notePitch><pitch><step>A</step>
 					<octave>5</octave>
 				</pitch>
 				<duration>1</duration>
@@ -103,12 +102,12 @@
 						<fret>10</fret>
 					</technical>
 				</notations>
-			</note>
+			</notePitch>
 		</measure>
 		<measure number="2">
 			<barline><bar-style>light-heavy</bar-style>
 			</barline>
-			<note><pitch><step>A</step>
+			<notePitch><pitch><step>A</step>
 					<octave>4</octave>
 				</pitch>
 				<duration>1</duration>
@@ -120,8 +119,21 @@
 						<fret>12</fret>
 					</technical>
 				</notations>
-			</note>
-			<note><pitch><step>F</step>
+			</notePitch>
+			<notePitch><pitch><step>P</step>
+				<octave>6</octave>
+			</pitch>
+				<duration>1</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<notations><dynamics><f></f>
+				</dynamics>
+					<technical><string>2</string>
+						<fret>18</fret>
+					</technical>
+				</notations>
+			</notePitch>
+			<notePitch><pitch><step>F</step>
 					<alter>1</alter>
 					<octave>5</octave>
 				</pitch>
@@ -134,8 +146,8 @@
 						<fret>7</fret>
 					</technical>
 				</notations>
-			</note>
-			<note><pitch><step>D</step>
+			</notePitch>
+			<notePitch><pitch><step>D</step>
 					<alter>1</alter>
 					<octave>4</octave>
 				</pitch>
@@ -148,8 +160,8 @@
 						<fret>6</fret>
 					</technical>
 				</notations>
-			</note>
-			<note><pitch><step>F</step>
+			</notePitch>
+			<notePitch><pitch><step>F</step>
 					<octave>6</octave>
 				</pitch>
 				<duration>1</duration>
@@ -161,7 +173,7 @@
 						<fret>18</fret>
 					</technical>
 				</notations>
-			</note>
+			</notePitch>
 		</measure>
 	</part>
 </score-partwise>
